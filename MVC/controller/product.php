@@ -9,7 +9,7 @@
 	// echo json_encode($productos);
 
 
-	
+	//nuevo cambio
 
 
 //Consultar registros
