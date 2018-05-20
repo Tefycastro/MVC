@@ -4,9 +4,9 @@
 	//Servidor
 	$host = '172.30.43.220';
 	//Usuario
-	$user = 'user';
+	$user = 'userDJ6';
 	//Password
-	$password = 'password';
+	$password = 'e6ucT7nKPSbYc5jc';
 	//Base de datos a utilizar
 	$database = 'sampledb';
 ?>
