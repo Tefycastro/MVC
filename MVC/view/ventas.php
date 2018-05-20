@@ -25,7 +25,8 @@ if(isset( $_GET['cod'])){
   //TODO: GET DETAILS
   $sql = "SELECT * FROM ventas WHERE id=$cod";
 
-  $modificar = $pdo->prepare($sql);
+  
+  $statement = $connection->prepare($sql);
   $modificar->execute(array($cod));
   $result = $modificar->fetchAll();
   $rs_up = $result[0];
